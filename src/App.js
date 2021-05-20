@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import About from './Components/About';
 import Youtube from './Components/Youtube';
+import Banners from './Components/Banners';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <a className='header__optionsBtn' href="#" >Blogs</a>
           <a className='header__optionsBtn' href="#" >Books</a>
       </div>
+      <Banners></Banners>
       <About></About>
       <Youtube></Youtube>
       

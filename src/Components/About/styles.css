@@ -1,29 +1,29 @@
 .about{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .about__imageAndDetails{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .about__image{
     flex: 1;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     min-width: 350px;
 }
 
 .about__details{
     flex:1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
     min-width: 300px;
 }
 
 .about__moreDetails{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .about__detail1{

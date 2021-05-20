@@ -23,7 +23,7 @@ function Youtube() {
 
                 </div>
             </div>
-            <YouTube className="youtubeThumb1" videoId="zmGdUZZPxsk" opts={opts} />
+                <YouTube className="youtubeThumb1" videoId="zmGdUZZPxsk" opts={opts} />
         </div>
     )
 }
