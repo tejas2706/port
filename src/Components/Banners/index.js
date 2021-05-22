@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import img1 from './images/1.jpeg';
 import img2 from './images/2.jpeg';
 import img3 from './images/3.jpeg';
@@ -14,6 +14,9 @@ function Banners() {
                 <ol className="carousel-indicators">
                     <li data-target="#carousel_1" data-slide-to="0" className="active"></li>
                     <li data-target="#carousel_1" data-slide-to="1"></li>
+                    <li data-target="#carousel_1" data-slide-to="2"></li>
+                    <li data-target="#carousel_1" data-slide-to="3"></li>
+                    <li data-target="#carousel_1" data-slide-to="4"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">

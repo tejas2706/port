@@ -1,8 +1,24 @@
 .banner__container {
-    padding: 20px;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    min-width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: antiquewhite; */
+    background: #005AA7;
+    background: -webkit-linear-gradient(to right, #FFFDE4, #afdaff, #FFFDE4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #afdaff, #FFFDE4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .carouselImage{
-    height: 350px;
-    width: 70vw;
+    height: 280px;
+    /* width: 70vw; */
+}
+
+.carousel{
+    width: 60vw;
+    min-width: 330px;
 }

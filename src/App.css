@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(72, 82, 128);
     height: 50px;
     padding: 10px 0 10px 0;
     /* border: 1px solid red; */
@@ -14,18 +14,16 @@
 
 .header__optionsBtn{
     margin: 5px 10px 5px 10px;
-    border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
-    width: 70px;
+    width: 100%;
     text-align: center;
     font-size: large;
-    color: black;
+    color: white;
     text-decoration: none;
-
 }
 
 .header__optionsBtn:hover{
-    background-color: black;
     color: aliceblue;
+    background-color: rgb(96, 105, 143);
 }

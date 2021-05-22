@@ -1,35 +1,167 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css'
 
 function About() {
-    return (
-        <div className="about" id="about">
-            <div className="about__imageAndDetails">
-                <div className="about__image">
-                    Image
-                </div>
-                <div className="about__details">
-                    <p className="about__detail1 foldtr">
-                        Dayanand Nene is a Management Consultant.
-                        His company, "<b>Righteous Events and PR</b>" undertakes all types of Marketing, Liaison, Corporate branding work.
-                        Political Campaign Strategies & Management, Political Surveys through their unique Election Management System and PR work.
-                    </p>
 
-                    <p className="about__detail1 foldtr">
-                        Dayanand Nene is also a Director in <br></br><b> &nbsp; ▹ &nbsp;Satark 4Nagrik Foundation ®</b> <br></br> <b>&nbsp; ▹ &nbsp;Grahak Raja Welfare Foundation ®</b> <br></br>Both NGO's registered with Ministry of Corporate Affairs, Govt of India.
-                    </p>
-                    
-                    <p className="about__detail1 foldtr">
-                        Dayanand Nene is originally a <b>Swayamsevak</b> who learnt about social work and responsibilities in the Akhil Bharatiya Vidyarthi Parishad.
-                        He was the Editor of the <b>ABVP journal Chhatra Shakti</b>.
-                        He later graduated into politics and became an active BJP activist. He handled the media for the Mumbai unit of the party for many years.
-                    </p>
+    const [morePC, setMorePC] = useState(null);
+    const [morePR, setmorePR] = useState(null);
+    const [moreWT, setMoreWT] = useState(null);
+    const [moreAct, setMoreAct] = useState(null);
+    const [moreMent, setMoreMent] = useState(null);
+
+    return (
+
+        <div className="about" id="about">
+            <div className="about__title">About Me</div>
+            <div className="about__details">
+                <div className="about__detail">
+                    <div className="about__details_header" onClick={() => setMorePC(!morePC)}>
+                        <p>➥ Political Consultant.&nbsp;&nbsp;&nbsp;
+                            {morePC ?
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                :
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        {
+                            morePC ? <p>
+                               <b>Advising and assisting political campaigns</b>. Development and production of mass media (largely television and direct mail), 
+                               advise campaigns on many other activities ranging from opposition research and voter polling, to field strategy and get out the vote efforts & political surveys.
+                               </p> : null
+                        }
+                    </div>
+                </div>
+                <div className="about__detail">
+                    <div className="about__details_header" onClick={() => setmorePR(!morePR)}>
+                        <p>➥ Public Relations.&nbsp;&nbsp;&nbsp;
+                            {morePR ?
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                :
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        {
+                            morePR ? <p>
+                                A <b>Communications Specialist</b> also called Public Relations Guru.
+                                Expert in handling public relations, information output, press releases and media requests, social media and/or advertising efforts.
+                                </p> : null
+                        }
+                    </div>
+                </div>
+                <div className="about__detail">
+                    <div className="about__details_header" onClick={() => setMoreWT(!moreWT)}>
+                        <p>➥ Writer and Thinker.&nbsp;&nbsp;&nbsp;
+                            {moreWT ?
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                :
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        {
+                            moreWT ? <p>
+                                Writing and Thinking gives form and discipline to ideas. 
+                                Committing notions to paper gives clarity, tests logic, and inevitably brings up even more ideas.
+                                </p> : null
+                        }
+                    </div>
+                </div>
+                <div className="about__detail">
+                    <div className="about__details_header" onClick={() => setMoreAct(!moreAct)}>
+                        <p>➥ Activist.&nbsp;&nbsp;&nbsp;
+                            {moreAct ?
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                :
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        {
+                            moreAct ? <p>
+                                He is an activist who works hands on to support a cause. 
+                                From handing out pamphlets about socio-political issues, to making powerful speeches, to organising and uniting people - he has done it all.
+                                </p> : null
+                        }
+                    </div>
+                </div>
+                <div className="about__detail">
+                    <div className="about__details_header" onClick={() => setMoreMent(!moreMent)}>
+                        <p>➥ Mentor.&nbsp;&nbsp;&nbsp;
+                            {moreMent ?
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                :
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        {
+                            moreMent ? <p>
+                                As a mentor - personally and through his blogs Dayanand Nene share s with his proteges information about their career path, as well as provides guidance, motivation, emotional support, and role modeling.
+                                He helps with exploring careers, setting goals, developing contacts, and identifying resources.
+                                </p> : null
+                        }
+                    </div>
                 </div>
             </div>
-            {/* <div className="about__moreDetails">
-                More Details
-            </div> */}
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // <div className="about" id="about">
+        //     <h3 className="about__title">About Me</h3>
+        //     <div className="about__details">
+        //         <div className='about__detail1'>
+        //             <div className="about__details_header" onClick={() => setMorePC(!morePC)}>
+        //                 <p>➥ Political Consultant.</p>
+        //                 <i class="fa fa-caret-down" aria-hidden="true"></i>
+        //             </div>
+        //             <div>
+        //                 {
+        //                     morePC ? <p>
+        //                         His company, "<b>Righteous Events and PR</b>" undertakes all types of Marketing, Liaison, Corporate branding work.
+        //                             Political Campaign Strategies & Management, Political Surveys through their unique Election Management System and PR work.
+        //                         </p> : null
+        //                 }
+        //             </div>
+        //         </div>
+        //         <div className='about__detail1'>
+        //             <div className="about__details_header" onClick={() => setMorePC(!morePC)}>
+        //                 <p>➥ Political Consultant.</p>
+        //                 <i class="fa fa-caret-down" aria-hidden="true"></i>
+        //             </div>
+        //             <div>
+        //                 {
+        //                     morePC ? <p>
+        //                         His company, "<b>Righteous Events and PR</b>" undertakes all types of Marketing, Liaison, Corporate branding work.
+        //                             Political Campaign Strategies & Management, Political Surveys through their unique Election Management System and PR work.
+        //                         </p> : null
+        //                 }
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
 
