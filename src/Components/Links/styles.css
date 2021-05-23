@@ -3,16 +3,92 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef5ff, #a8c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 50px 0 50px 0;
 }
 
 .links__title{
   font-size: xx-large;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
-.links__conatiner{
+.links__container{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 80%;
   min-width: 300px;
+}
+
+.links__facebookContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  min-width: 350px;
+  /* height: 250px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  margin: 10px;
+  background-color: white;
+}
+
+.links__facebookContainer:hover{
+  color-adjust: inherit;
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.links__facebookContainer > h5{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.links__image{
+  width: 90%;
+  /* height: 90%; */
+}
+
+.links__logo_fb{
+  height: 40px;
+  width: 55px;
+}
+
+.links__logo_inst{
+  height: 40px;
+  width: 50px;
+}
+
+.links__logo_tw{
+  height: 38px;
+  width: 53px;
+}
+
+.links__logo_you{
+  height: 38px;
+  width: 53px;
+}
+
+.fb{
+  color: #305DBB;
+}
+
+.tw{
+  color: #28A7DE;
+}
+
+.inst{
+  color:#D74D84;
+}
+
+.you{
+  color: #D53B1F;
 }
