@@ -5,6 +5,7 @@ import About from './Components/About';
 import Youtube from './Components/Youtube';
 import Banners from './Components/Banners';
 import Links from './Components/Links';
+import Blogs from './Components/Blogs';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <About></About>
       <Links></Links>
       <Youtube></Youtube>
-      
+      <Blogs></Blogs>
     </div>
   );
 }
