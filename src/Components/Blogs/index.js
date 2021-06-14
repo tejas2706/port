@@ -3,12 +3,11 @@ import './styles.css';
 
 function Blogs() {
     return (
-        <div className="blogs">
+        <div className="blogs" id="blogs">
             <div className="blogs__title">My Blogs</div>
             <div class="list-wrapper">
-
                 <div class="red-line"></div>
-
+                
                 <div class="list-item-wrapper">
                     <div class="list-bullet">1</div>
                     <div class="list-item">
@@ -41,7 +40,6 @@ function Blogs() {
                                 <div className="blogs__tag">Saket Matters</div>
                                 <div className="blogs__tag">Scams</div>
                                 <div className="blogs__tag">Sports</div>
-
                             </div>
                         </div>
                     </div>

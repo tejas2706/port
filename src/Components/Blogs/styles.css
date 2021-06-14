@@ -4,9 +4,10 @@
     align-items: center;
     justify-content: center;
     background: #E0EAFC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,#a8c6ff, #eef5ff ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #2F4454, #5a809e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#2F4454, #5a809e ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 50px 0 50px 0;
+    color: white;
 }
 
 .blogs__title{
@@ -29,11 +30,6 @@
     color: white;
 }
 
-.blogs__tag:hover{
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-}
-
 .list-wrapper {
     position:relative;
     align-self: flex-start;
@@ -41,7 +37,7 @@
     margin-right: 5vw;
   }
   .list-item-wrapper {
-    margin-top:30px;
+    margin-top:90px;
     position:relative;
   }
   .list-bullet {
@@ -63,6 +59,7 @@
   .list-title {
       font-weight:700;
       font-size: x-large;
+      color: #D8C3A5;
   }
   .list-text {
       font-weight:400;

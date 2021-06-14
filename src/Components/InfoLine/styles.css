@@ -1,0 +1,22 @@
+.infoline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 30px; */
+    background-color: rgb(179, 2, 2);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.infoline>a{
+    text-decoration: none;
+    color: rgb(194, 194, 255);
+    cursor: pointer;
+}
+
+.infoline>a:hover{
+    color: rgb(143, 143, 255);
+}
