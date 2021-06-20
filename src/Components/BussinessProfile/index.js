@@ -6,7 +6,7 @@ import image2 from './images/2.jpeg';
 function BussinessProfile() {
     return (
         <div className="bussinessProfile" id="bussinessProfile">
-            <div className="bussinessProfile__title">
+            <div className="bussinessProfile__title allTitle">
                 Bussiness Profile<br></br><br></br>
                 <h2 style={{fontFamily:"fantasy"}}>Righteous Events and PR</h2>
             </div>

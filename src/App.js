@@ -11,15 +11,16 @@ import PersonalProfile from './Components/PersonalProfile';
 import BussinessProfile from './Components/BussinessProfile';
 import InfoLine from './Components/InfoLine';
 import CovidFight from './Components/CovidFight';
+import Contact from './Components/Contact';
 
 function App() {
   return (
     <div>
       <Header></Header>
       <div className="header__options">
-          <a className='header__optionsBtn' href="#about" >Personal Profile</a>
+          <a className='header__optionsBtn' href="#personalProfile" >Personal Profile</a>
           {/* <span style={{color: 'white'}}>|</span> */}
-          <a className='header__optionsBtn' href="#youtube" >Bussiness Profile</a>
+          <a className='header__optionsBtn' href="#bussinessProfile" >Bussiness Profile</a>
           {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#youtube" >Youtube</a>
           {/* <span style={{color: 'white'}}>|</span> */}
@@ -37,6 +38,7 @@ function App() {
       <CovidFight></CovidFight>
       <PersonalProfile></PersonalProfile>
       <BussinessProfile></BussinessProfile>
+      <Contact></Contact>
     </div>
   );
 }

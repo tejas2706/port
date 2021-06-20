@@ -9,7 +9,7 @@ import image5 from './images/5.jpeg';
 function CovidFight() {
     return (
         <div className="CovidFight" id="CovidFight">
-            <div className="CovidFight__title">
+            <div className="CovidFight__title allTitle">
                 Our Fight Against Covid<br></br><br></br>
             </div>
             <div>

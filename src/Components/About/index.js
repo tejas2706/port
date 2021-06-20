@@ -12,7 +12,7 @@ function About() {
     return (
 
         <div className="about" id="about">
-            <div className="about__title">About Me</div>
+            <div className="about__title allTitle">About Me</div>
             <div className="about__details">
                 <div className="about__detail">
                     <div className="about__details_header" onClick={() => setMorePC(!morePC)}>

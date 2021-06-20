@@ -1,20 +1,15 @@
 import React from 'react';
-import YouTube from 'react-youtube';
 import './styles.css';
+import image1 from './images/youtube.png';
 
 function Youtube() {
 
-    const opts = {
-        playerVars: {
-            autoplay: 0,
-        },
-    };
-
     return (
         <div className="youtube" id="youtube">
-            <div className="youtube__title">
+            <div className="youtube__title allTitle">
                 Take a look at my Youtube playlists
             </div>
+            <img className="youtube__titleImage" src={image1} alt='image1'></img>
             <div className="youtube__playlist">
                 <a className="youtube__eachPlaylist" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=1OC9V92ROoA&list=PLAk4Pqtbkzx256D3m_6DTwEyRqrkRolPX">
                     <div>

@@ -10,7 +10,7 @@ function Books() {
 
     return (
         <div className="books" id="books">
-            <div className="books__title">
+            <div className="books__title allTitle">
                 Books Authored
             </div>
             <div className="books__images">

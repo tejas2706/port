@@ -4,7 +4,7 @@ import './styles.css';
 function Blogs() {
     return (
         <div className="blogs" id="blogs">
-            <div className="blogs__title">My Blogs</div>
+            <div className="blogs__title allTitle">My Blogs</div>
             <div class="list-wrapper">
                 <div class="red-line"></div>
                 

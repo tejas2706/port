@@ -14,7 +14,7 @@ function Links() {
     return (
 
         <div className="links" id="about">
-            <div className="links__title">----- Follow Me On -----</div>
+            <div className="links__title allTitle">Follow Me On</div>
             <div className="links__container">
                 <a href="https://www.facebook.com/dayanandnene" className="links__facebookContainer fb">
                     <img className="links__image" alt="facebookLink" src={fbImg}></img>

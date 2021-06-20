@@ -22,3 +22,10 @@
     margin: 0 40px 0 40px;
     font-size: large;
 }
+
+.personalprofile__image{
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}

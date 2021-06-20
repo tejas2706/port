@@ -1,13 +1,17 @@
 import React from 'react';
 import './styles.css';
+import image2 from './images/2.jpeg';
 
 function PersonalProfile() {
     return (
         <div className="personalProfile" id="personalProfile">
-            <div className="personalProfile__title">
+            <div className="personalProfile__title allTitle">
                 Personal Profile
             </div>
             <div className="personalprofile__content">
+            <div className="bussinessProfile__imageDiv">
+                    <img className='personalprofile__image' src={image2} alt='image2'></img>
+                </div>
                 Dayanand Nene is a <b style={{color:'rgb(209, 195, 0)' }}>Management Consultant</b>.
                 His company, <b style={{color:'rgb(209, 195, 0)' }}>Righteous Events and PR</b> undertakes all types of Marketing, Liaison, Corporate branding work.
                 Political Campaign Strategies & Management, Political Surveys thru' their unique Election Management System and PR work.
