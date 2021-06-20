@@ -10,6 +10,7 @@ import Books from './Components/Books';
 import PersonalProfile from './Components/PersonalProfile';
 import BussinessProfile from './Components/BussinessProfile';
 import InfoLine from './Components/InfoLine';
+import CovidFight from './Components/CovidFight';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Youtube></Youtube>
       <Blogs></Blogs>
       <Books></Books>
+      <CovidFight></CovidFight>
       <PersonalProfile></PersonalProfile>
       <BussinessProfile></BussinessProfile>
     </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+import image1 from './images/1.jpeg';
+import image2 from './images/2.jpeg';
 
 function BussinessProfile() {
     return (
@@ -9,8 +11,8 @@ function BussinessProfile() {
                 <h2 style={{fontFamily:"fantasy"}}>Righteous Events and PR</h2>
             </div>
             <div>
-                <div>
-                    <img src=""></img>
+                <div className="bussinessProfile__imageDiv">
+                    <img className='bussinessProfile__image' src={image1} alt='image1'></img>
                 </div>
                 <div className="bussinessProfile__content">
                     <span style={{ fontSize: "30px" }}><b><u>About US</u></b></span><br></br><br></br>                    

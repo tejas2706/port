@@ -1,4 +1,4 @@
-.youtube{
+.personalProfile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     padding: 50px 0 50px 0;
 }
 
-.youtube__title{
+.personalProfile__title{
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 30px;
@@ -17,46 +17,8 @@
     color: white;
 }
 
-.youtube__playlist{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    /* border: 1px solid black; */
-    padding: 10px 0 10px 0;
-}
-
-.youtube__eachPlaylist{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 40%;
-    min-width: 320px;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 7px;
-    margin: 10px;
-    background-color: #cee0e1;
-    text-decoration: none;
-    color: black;
-}
-
-.youtube__eachPlaylist:hover{
-    text-decoration: none;
-    background-color:  rgb(201, 201, 201);;
-    color: black;
-}
-
-.youtubeThumb1{
-    width: 90%;
-    height: 30vh;
-}
-
-.youtube__eachDetail{
+.personalprofile__content{
+    color: white;
+    margin: 0 40px 0 40px;
     font-size: large;
-    font-weight: bold;
-    text-transform: uppercase;
 }

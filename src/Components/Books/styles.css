@@ -17,3 +17,26 @@
     color: white;
 }
 
+.books__images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.books__each{
+    width: 15%;
+    min-width: 150px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+.books__eachBook{
+    width: 15%;
+    min-width: 140px;
+    margin: 10px;
+    height: 20%;
+    min-height: 210px;
+}
