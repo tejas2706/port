@@ -5,6 +5,14 @@ import image2 from './images/2.jpeg';
 import image3 from './images/3.jpeg';
 import image4 from './images/4.jpeg';
 import image5 from './images/5.jpeg';
+import image6 from './images/6.jpeg';
+import image8 from './images/8.jpeg';
+import image9 from './images/9.jpeg';
+import image10 from './images/10.jpeg';
+import image11 from './images/11.jpeg';
+import image13 from './images/13.jpeg';
+import image15 from './images/15.jpeg';
+import image16 from './images/16.jpeg';
 
 function CovidFight() {
     return (
@@ -13,6 +21,21 @@ function CovidFight() {
                 Our Fight Against Covid<br></br><br></br>
             </div>
             <div>
+
+            <h3><b>Satark Nagrik Foundation ®</b></h3>
+                [Alert Citizens Forum]
+                <br></br><br></br>
+                <br></br><br></br>
+                <div className="CovidFight1__images_roller">
+                    <img className='CovidFight1__image_roll' src={image9} alt='cov9'></img>
+                    <img className='CovidFight1__image_roll' src={image6} alt='cov6'></img>
+                    <img className='CovidFight1__image_roll' src={image8} alt='cov8'></img>
+                    <img className='CovidFight1__image_roll' src={image10} alt='cov10'></img>
+                    <img className='CovidFight1__image_roll' src={image11} alt='cov11'></img>
+                    <img className='CovidFight1__image_roll' src={image13} alt='cov13'></img>
+                    <img className='CovidFight1__image_roll' src={image16} alt='cov16'></img>
+                    <img className='CovidFight1__image_roll' src={image15} alt='cov15'></img>
+                </div>
                 The Covid 2nd wave has hit us like a tsunami.
                 In a very short span it engulfed thousands of people. Beds, medicines became scarce. Livelihood was hit.
                 <br></br><br></br>
@@ -27,11 +50,6 @@ function CovidFight() {
                     <img className='CovidFight__image' src={image1} alt='cov1'></img>
                     <img className='CovidFight__image' src={image2} alt='cov2'></img>
                 </div>
-                <br></br><br></br>
-                <br></br><br></br>
-
-                <h3><b>Satark Nagrik Foundation ®</b></h3>
-                [Alert Citizens Forum]
                 <br></br><br></br>
 
                 The second wave of Corona Virus has brought the world on its knees and has yet again created an international pandemic emergency situation.

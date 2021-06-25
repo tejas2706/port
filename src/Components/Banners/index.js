@@ -4,10 +4,13 @@ import img2 from './images/2.jpeg';
 import img3 from './images/3.jpeg';
 import img4 from './images/4.jpeg';
 import img5 from './images/5.jpeg';
+import img6 from './images/6.jpeg';
+import img7 from './images/7.jpeg';
+import img8 from './images/8.jpeg';
 import './styles.css'
 
 function Banners() {
-    const images = [img1, img2, img3, img4, img5];
+    const images = [img1, img2, img3, img4, img5, img6, img7, img8];
     return (
         <div className="banner__container">
             <div id="carousel_1" className="carousel slide" data-ride="carousel">
@@ -17,6 +20,9 @@ function Banners() {
                     <li data-target="#carousel_1" data-slide-to="2"></li>
                     <li data-target="#carousel_1" data-slide-to="3"></li>
                     <li data-target="#carousel_1" data-slide-to="4"></li>
+                    <li data-target="#carousel_1" data-slide-to="5"></li>
+                    <li data-target="#carousel_1" data-slide-to="6"></li>
+                    <li data-target="#carousel_1" data-slide-to="7"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">

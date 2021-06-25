@@ -7,7 +7,7 @@ function BussinessProfile() {
     return (
         <div className="bussinessProfile" id="bussinessProfile">
             <div className="bussinessProfile__title allTitle">
-                Bussiness Profile<br></br><br></br>
+                Business Profile<br></br><br></br>
                 <h2 style={{fontFamily:"fantasy"}}>Righteous Events and PR</h2>
             </div>
             <div>

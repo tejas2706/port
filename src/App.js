@@ -20,7 +20,7 @@ function App() {
       <div className="header__options">
           <a className='header__optionsBtn' href="#personalProfile" >Personal Profile</a>
           {/* <span style={{color: 'white'}}>|</span> */}
-          <a className='header__optionsBtn' href="#bussinessProfile" >Bussiness Profile</a>
+          <a className='header__optionsBtn' href="#bussinessProfile" >Business Profile</a>
           {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#youtube" >Youtube</a>
           {/* <span style={{color: 'white'}}>|</span> */}

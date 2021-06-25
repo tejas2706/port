@@ -30,4 +30,25 @@
     /* min-height: 130px; */
     min-width: 130px;
     margin: 5px;
+    border-radius: 20px;
+}
+
+.CovidFight1__images_roller{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+    width: 100%;
+}
+
+.CovidFight1__image_roll{
+    width: 40%;
+    height: 40%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 5px;
+    border: 1px solid rgba(155, 153, 153, 0.6);
+    border-radius: 10px;
 }

@@ -21,10 +21,10 @@ function PersonalProfile() {
 
                 Dayanand Nene is originally a Swayamsevak who learnt about social work and responsibilities in the Akhil Bharatiya Vidyarthi Parishad.
                 He was the <b style={{color:'rgb(209, 195, 0)' }}>Editor of the ABVP journal Chhatra Shakti</b>.
-                He later graduated into politics and became an active BJP activist. He handled the media for the Mumbai unit of the party for many years.
+                Later, he started getting involved in politics, inspired by Shri Atal Bihari Vajpayee. He has been a BJP ex office bearer and activist since 30 years and has been the Press Secretary of the Mumbai unit and member of the State executive committee. He has handled various responsibilities given by the party.
                 <br></br><br></br>
 
-                He has been a freelance journalist and has contributed articles on politics and socio economic affairs for past 35 years.<br></br>
+                He has also been connected and has had good contacts with the Intelligence wing.<br></br>
                 He has an indepth study about the Middle East Asia affairs and has written many articles on the situation and politics of that area.
                 He was a member of the <b style={{color:'rgb(209, 195, 0)' }}>Film Censor Board</b> and the Railways Passenger Consultative Committee.
                 <br></br><br></br>

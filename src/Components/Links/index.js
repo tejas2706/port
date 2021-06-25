@@ -8,6 +8,8 @@ import instapost from './images/instpost1.jpeg';
 import instlogo from './images/instlogo.png';
 import youtubelogo from './images/youtubelogo.png';
 import youtubePost from './images/youtubepost.png';
+import linkedinlogo from './images/linkedinlogo.png';
+import linkedinpost from './images/linkedinpost.png';
 
 function Links() {
 
@@ -24,9 +26,13 @@ function Links() {
                     <img className="links__image" alt="facebookLink" src={twitterPost}></img>
                     <h5>Twitter <img src={twlogo} alt='fblogo' className="links__logo_tw"></img></h5>
                 </a>
-                <a href="https://www.instagram.com/dayanandnene/" className="links__facebookContainer inst">
+                {/* <a href="https://www.instagram.com/dayanandnene/" className="links__facebookContainer inst">
                     <img className="links__image" alt="facebookLink" src={instapost}></img>
                     <h5>Instagram <img src={instlogo} alt='fblogo' className="links__logo_inst"></img></h5>
+                </a> */}
+                <a href="https://www.linkedin.com/in/dayanand-nene-28017311" className="links__facebookContainer linkedin">
+                    <img className="links__image" alt="facebookLink" src={linkedinpost}></img>
+                    <h5>LinkedIn <img src={linkedinlogo} alt='fblogo' className="links__logo_you"></img></h5>
                 </a>
                 <a href="https://www.youtube.com/channel/UCprWjZfxzQeV_jGFv2Cjthg" className="links__facebookContainer you">
                     <img className="links__image" alt="facebookLink" src={youtubePost}></img>

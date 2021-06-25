@@ -6,3 +6,12 @@
     flex-direction: column;
     padding: 30px;
 }
+
+.Contact>div{
+    display: flex;
+}
+
+.Contact>div>img{
+    height: 40px;
+    width: 40px;
+}

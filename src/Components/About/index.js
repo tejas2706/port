@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './styles.css'
+import image1 from './images/1.jpeg';
+import image2 from './images/2.jpeg';
+import flower from './images/flower.jpeg';
 
 function About() {
 
@@ -12,7 +15,7 @@ function About() {
     return (
 
         <div className="about" id="about">
-            <div className="about__title allTitle">About Me</div>
+            <div className="about__title allTitle"><img src={flower} alt='flower'></img> About Me <img src={flower} alt='flower'></img></div>
             <div className="about__details">
                 <div className="about__detail">
                     <div className="about__details_header" onClick={() => setMorePC(!morePC)}>
@@ -27,6 +30,10 @@ function About() {
                     <div>
                         {
                             morePC ? <p>
+                                <div className="about__pcImages">
+                                    <img className='about__image' src={image1} alt='image1'></img>
+                                    <img className='about__image' src={image2} alt='image2'></img>
+                                </div>
                                <b>Advising and assisting political campaigns</b>. Development and production of mass media (largely television and direct mail), 
                                advise campaigns on many other activities ranging from opposition research and voter polling, to field strategy and get out the vote efforts & political surveys.
                                </p> : null
