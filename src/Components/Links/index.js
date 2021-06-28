@@ -1,11 +1,9 @@
 import React from 'react';
 import './styles.css'
 import fbImg from './images/fbposts.png';
+import fbImg1 from './images/fbpage1.png';
+import fbImg2 from './images/fbpage2.png';
 import fblogo from './images/fbsplashlogo.png';
-import twitterPost from './images/twitterPost.png'
-import twlogo from './images/twlogo.png';
-import instapost from './images/instpost1.jpeg';
-import instlogo from './images/instlogo.png';
 import youtubelogo from './images/youtubelogo.png';
 import youtubePost from './images/youtubepost.png';
 import linkedinlogo from './images/linkedinlogo.png';
@@ -18,23 +16,23 @@ function Links() {
         <div className="links" id="about">
             <div className="links__title allTitle">Follow Me On</div>
             <div className="links__container">
-                <a href="https://www.facebook.com/dayanandnene" className="links__facebookContainer fb">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/Thane-Newsmakers-103201175179943/" className="links__facebookContainer fb">
+                    <img className="links__image" alt="facebookLink" src={fbImg1}></img>
+                    <h5>Facebook <img src={fblogo} alt='fblogo' className="links__logo_fb"></img></h5>
+                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/bjpdayanand/" className="links__facebookContainer fb">
+                    <img className="links__image" alt="facebookLink" src={fbImg2}></img>
+                    <h5>Facebook <img src={fblogo} alt='fblogo' className="links__logo_fb"></img></h5>
+                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/dayanandnene" className="links__facebookContainer fb">
                     <img className="links__image" alt="facebookLink" src={fbImg}></img>
                     <h5>Facebook <img src={fblogo} alt='fblogo' className="links__logo_fb"></img></h5>
                 </a>
-                <a href="https://twitter.com/dayanandnene" className="links__facebookContainer tw">
-                    <img className="links__image" alt="facebookLink" src={twitterPost}></img>
-                    <h5>Twitter <img src={twlogo} alt='fblogo' className="links__logo_tw"></img></h5>
-                </a>
-                {/* <a href="https://www.instagram.com/dayanandnene/" className="links__facebookContainer inst">
-                    <img className="links__image" alt="facebookLink" src={instapost}></img>
-                    <h5>Instagram <img src={instlogo} alt='fblogo' className="links__logo_inst"></img></h5>
-                </a> */}
-                <a href="https://www.linkedin.com/in/dayanand-nene-28017311" className="links__facebookContainer linkedin">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/dayanand-nene-28017311" className="links__facebookContainer linkedin">
                     <img className="links__image" alt="facebookLink" src={linkedinpost}></img>
                     <h5>LinkedIn <img src={linkedinlogo} alt='fblogo' className="links__logo_you"></img></h5>
                 </a>
-                <a href="https://www.youtube.com/channel/UCprWjZfxzQeV_jGFv2Cjthg" className="links__facebookContainer you">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCprWjZfxzQeV_jGFv2Cjthg" className="links__facebookContainer you">
                     <img className="links__image" alt="facebookLink" src={youtubePost}></img>
                     <h5>Youtube <img src={youtubelogo} alt='fblogo' className="links__logo_you"></img></h5>
                 </a>
