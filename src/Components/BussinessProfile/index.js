@@ -14,6 +14,7 @@ function BussinessProfile() {
                 <div className="bussinessProfile__imageDiv">
                     <img className='bussinessProfile__image' src={image1} alt='image1'></img>
                 </div>
+                <br></br>
                 <div className="bussinessProfile__content">
                     <span style={{ fontSize: "30px" }}><b><u>About US</u></b></span><br></br><br></br>                    
                     <div style={{color: "rgb(214, 0, 0)"}}><b>

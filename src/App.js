@@ -12,6 +12,7 @@ import BussinessProfile from './Components/BussinessProfile';
 import InfoLine from './Components/InfoLine';
 import CovidFight from './Components/CovidFight';
 import Contact from './Components/Contact';
+import Gallery from './Components/Gallery';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <CovidFight></CovidFight>
       <PersonalProfile></PersonalProfile>
       <BussinessProfile></BussinessProfile>
+      <Gallery></Gallery>
       <Contact></Contact>
     </div>
   );

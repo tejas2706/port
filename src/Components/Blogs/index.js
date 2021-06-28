@@ -7,12 +7,13 @@ function Blogs() {
             <div className="blogs__title allTitle">My Blogs</div>
             <div class="list-wrapper">
                 <div class="red-line"></div>
-                
+                <a href='https://www.dayanandnene.blogspot.com' rel='noreferrer' target="_blank">
                 <div class="list-item-wrapper">
                     <div class="list-bullet">1</div>
                     <div class="list-item">
                         <div class="list-title">Dayanand's World</div>
                         <div class="list-text">Dayanand Nene is a Political Activist and Analyst connected with the BJP. He is also very active in Socio-Consumer field. He is the National Secretary of Consumer Protection Service Council and President of Alert Citizens Forum of India. This is his blog and it covers ...</div>
+                        <br></br>
                         <div class="list-text"><b>Tags</b>:
                             <div className="blogs__tags">
                                 <div className="blogs__tag">Acts</div>
@@ -42,14 +43,19 @@ function Blogs() {
                                 <div className="blogs__tag">Sports</div>
                             </div>
                         </div>
+                        <br></br>
+                        <p>(Click above ⤴ to visit the blogs)</p>
                     </div>
                 </div>
+                </a>
 
+                <a href='https://www.smallinvestorforum.blogspot.com' rel='noreferrer' target="_blank">
                 <div class="list-item-wrapper">
                 <div class="list-bullet">2</div>
                     <div class="list-item">
                         <div class="list-title">Small Investors Forum</div>
                         <div class="list-text">It is an initiative of the SATARK NAGRIK ® NGO started by Dayanand Nene. There is a need to continuously educate and inform investors about capital markets and investment frauds.Hence we have started this platform which provides education and information to investors...</div>
+                        <br></br>
                         <div class="list-text"><b>Tags</b>:
                             <div className="blogs__tags">
                                 <div className="blogs__tag">Cryptocurrencies</div>
@@ -62,14 +68,19 @@ function Blogs() {
                                 <div className="blogs__tag">SEBI</div>
                             </div>
                         </div>
+                        <br></br>
+                        <p>(Click above ⤴ to visit the blogs)</p>
                     </div>
                 </div>
+                </a>
 
+                <a href='https://www.sahakarsutra.blogspot.com' rel='noreferrer' target="_blank">
                 <div class="list-item-wrapper">
                 <div class="list-bullet">3</div>
                     <div class="list-item">
                         <div class="list-title">Sahakarsutra</div>
                         <div class="list-text">An activity of righteous foundation (ngo) started by dayanand nene. It aims at providing guidance to people on cooperative act and housing society matters through compilation of various informative articles and presenting them in a concise form for the benefit of the reader....</div>
+                        <br></br>
                         <div class="list-text"><b>Tags</b>:
                             <div className="blogs__tags">
                                 <div className="blogs__tag">Affordable Housing</div>
@@ -85,14 +96,19 @@ function Blogs() {
                                 <div className="blogs__tag">Security of a CHS</div>
                             </div>
                         </div>
+                        <br></br>
+                        <p>(Click above ⤴ to visit the blogs)</p>
                     </div>
                 </div>
-
+                </a>
+                
+                <a href='https://www.casadevalaya.blogspot.com' rel='noreferrer' target="_blank">
                 <div class="list-item-wrapper">
                 <div class="list-bullet">4</div>
                     <div class="list-item">
                         <div class="list-title">Casa Devalaya</div>
                         <div class="list-text">Our aim is to compile and provide information about the rich heritage and importance of various temple's in India and abroad, boost tourism and imbibe Indian values and ethos among people. A Hindu temple is a symbolic house...</div>
+                        <br></br>
                         <div class="list-text"><b>Tags</b>:
                             <div className="blogs__tags">
                                 <div className="blogs__tag">Deities</div>
@@ -106,14 +122,19 @@ function Blogs() {
                                 <div className="blogs__tag">Vedas and Hindu Seasons</div>
                             </div>
                         </div>
+                        <br></br>
+                        <p>(Click above ⤴ to visit the blogs)</p>
                     </div>
                 </div>
+                </a>
 
+                <a href='https://www.saketparisaralm.blogspot.in' rel='noreferrer' target="_blank">
                 <div class="list-item-wrapper">
                 <div class="list-bullet">5</div>
                     <div class="list-item">
                         <div class="list-title">Saket Parisar Advanced Locality Management [ALM]</div>
                         <div class="list-text">It is an activity started by RIGHTEOUS FOUNDATION (NGO) and Dayanand Nene. Saket Parisar ALM was started by Dayanand Nene in 2010 for betterment of the Parisar. This is to keep Saket Parisar residents informed about the happenings in the Parisar. This blog records the activity of that ALM....</div>
+                        <br></br>
                         <div class="list-text"><b>Tags</b>:
                             <div className="blogs__tags">
                                 <div className="blogs__tag">Activism for Saket</div>
@@ -126,10 +147,14 @@ function Blogs() {
                                 <div className="blogs__tag">Important Info</div>
                             </div>
                         </div>
+                        <br></br>
+                        <p>(Click ⤴ to visit the blogs)</p>
                     </div>
                     <div class="white-line"></div>
                 </div>
+                </a>
             </div>
+            ...
         </div>
     )
 }

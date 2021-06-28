@@ -9,36 +9,74 @@ function PersonalProfile() {
                 Personal Profile
             </div>
             <div className="personalprofile__content">
-            <div className="bussinessProfile__imageDiv">
+                <div className="bussinessProfile__imageDiv">
                     <img className='personalprofile__image' src={image2} alt='image2'></img>
                 </div>
-                Dayanand Nene is a <b style={{color:'rgb(209, 195, 0)' }}>Management Consultant</b>.
-                His company, <b style={{color:'rgb(209, 195, 0)' }}>Righteous Events and PR</b> undertakes all types of Marketing, Liaison, Corporate branding work.
+                Dayanand Nene is a multifaceted personality.
+                <br></br>
+                He was born on a unique leap year date on <b>February 29th</b> in the Pen town of Raigad District, Maharashtra.
+                
+                <br></br><br></br>
+                He is a live-wire socio-political and consumer activist, free lance journalist, hardcore Marketing and PR professional.
+
+                <br></br><br></br>
+                Dayanand Nene has been a Management Consultant.
+                His company, <b style={{ color: 'rgb(209, 195, 0)' }}>" Righteous Events and PR "</b> undertakes all types of Marketing, Liaison, Corporate branding work.<br></br>
                 Political Campaign Strategies & Management, Political Surveys thru' their unique Election Management System and PR work.
-                <br></br><br></br>
-                Dayanand Nene is also a Director in <b style={{color:'rgb(209, 195, 0)' }}>Satark 4Nagrik Foundation ®</b> and <b style={{color:'rgb(209, 195, 0)' }}>Grahak Raja Welfare Foundation ® </b>- both NGO's registered with Ministry of Corporate Affairs, Govt of India.
-                <br></br><br></br>
 
+                <br></br><br></br>
+                Dayanand Nene is also a Director in <b style={{ color: 'rgb(209, 195, 0)' }}>Satark 4Nagrik Foundation ®</b> and <b style={{ color: 'rgb(209, 195, 0)' }}>Grahak Raja Welfare Foundation ® </b>- both NGO's registered with Ministry of Corporate Affairs, Govt of India.
+                
+                <br></br><br></br>
                 Dayanand Nene is originally a Swayamsevak who learnt about social work and responsibilities in the Akhil Bharatiya Vidyarthi Parishad.
-                He was the <b style={{color:'rgb(209, 195, 0)' }}>Editor of the ABVP journal Chhatra Shakti</b>.
-                Later, he started getting involved in politics, inspired by Shri Atal Bihari Vajpayee. He has been a BJP ex office bearer and activist since 30 years and has been the Press Secretary of the Mumbai unit and member of the State executive committee. He has handled various responsibilities given by the party.
-                <br></br><br></br>
+                He was the <b style={{ color: 'rgb(209, 195, 0)' }}>Editor of the ABVP journal Chhatra Shakti</b>.
+                <br></br>
+                He plunged into politics, inspired by Shri Atal Bihari Vajpayee and became an active BJP activist.
+                <br></br>
+                He participated in the <b style={{ color: 'rgb(209, 195, 0)' }}>'Ramjanmabhoomi Ayodhya movement' as a Karsevak</b> in 1991 - 92.
+                <br></br>
+                When the Shiv Sena - BJP Govt came to power in Maharashtra in 1995, he handled the media for the BJP Mumbai unit of the party for many years.
+                <br></br>
+                He has had the opportunity to work closely with BJP stalwart leaders like <b>Pramod Mahajan</b>, <b>Gopinath Munde</b>, <b>Kirit Somaiya</b> amongst others.
 
-                He has also been connected and has had good contacts with the Intelligence wing.<br></br>
-                He has an indepth study about the Middle East Asia affairs and has written many articles on the situation and politics of that area.
-                He was a member of the <b style={{color:'rgb(209, 195, 0)' }}>Film Censor Board</b> and the Railways Passenger Consultative Committee.
                 <br></br><br></br>
+                After the 1998 Pokharan Nuclear blasts by India, the United States had clamped economic sanctions against us.
+                <br></br>
+                At that time, Dayanand Nene led a unique - <b>McDonald's me Khana nahi, Pepsi aur Coke peena nahi</b> - agitation in whole of Mumbai where in Pepsi & Coke was drained in gutters.
+                <br></br>
+                In the BJP, he has been an ex office bearer of the Mumbai unit and part of the State Executive Committee and shouldered many responsibilities given to him.
 
-                He started his <b style={{color:'rgb(209, 195, 0)' }}>psephology venture</b>: Election Management System in 2012. He conducted accurate survey during the Gujarat Elections in 2012, Loksabha election of 2014, Corporation elections in 2017 for Mumbai, Thane, Pune and Pimpri Chinchwad corporations.
                 <br></br><br></br>
+                He has been a freelance journalist and has contributed articles on politics and socio economic affairs for past 35 years.
 
-                He is very active in the Consumer field: National Secretary of Consumer Protection Service Council; Convener of Small Investors Forum and Sahakarsutra.
                 <br></br><br></br>
+                He has an indepth study about International Affairs with focus on the Middle East Asia affairs, especially Israel and has written many articles on the situation and politics of that area.
 
-                Through these organization, he provides free online guidance to people on Consumer and Investor rights and Cooperative Housing Society Matters.
-                He has a popular blog called Casa Devalaya - which gives information about our temples in the country, our religious heritage and importance & information about how to conduct different puja's.
+                <br></br><br></br>
+                He was a member of the Film Censor Board and the Railways Passenger Consultative Committee.
+                He has been connected with the Intelligence Bureau also.
+
+                <br></br><br></br>
+                He started his <b style={{ color: 'rgb(209, 195, 0)' }}>psephology venture</b>: Election Management System in 2012. He conducted accurate survey during the Gujarat Elections in 2012 /2017, Loksabha election of 2014 / 2019, Assembly elections in Maharashtra in 2014 and 2019, Corporation elections in 2017 for Mumbai, Thane, Pune and Pimpri Chinchwad corporations.
+                
+                <br></br><br></br>
+                He is very active in the Consumer field and is
+                <ul>
+                <li>National Secretary of Consumer Protection Service Council.</li>
+                <li>Convener of Small Investors Forum.</li>
+                <li>Convener of Sahakarsutra.</li>
+                </ul>
+
+                <br></br><br></br>
+                He has a popular blog called <b style={{ color: 'rgb(209, 195, 0)' }}>Casa Devalaya</b> - which focusses on promoting India's rich heritage of Hindu temples.
+                <br></br>
+                Casa Devalaya gives information about our temples in the country, our religious heritage and importance & information about how to conduct different kinds of puja's and promotes Temple Tourism.
+
+                <br></br><br></br>
+                Through his <b style={{ color: 'rgb(209, 195, 0)' }}>Alert Citizens Forum of India</b>, he has done exemplary work in saving Mangroves in Thane, fighting the corrupt systems and exposing illegal constructions, giving constructive suggestions to the State Govt and local Corporation regarding Property Tax compilation, Cluster Development, Deemed Conveyance, Parking problems, Noise pollution, Ganesh Pandals and bettering citizens lives.
+
             </div>
-            <span style={{color:'white'}}>.&nbsp;&nbsp;.&nbsp;&nbsp;.</span>
+            <span style={{ color: 'white' }}>.&nbsp;&nbsp;.&nbsp;&nbsp;.</span>
         </div>
     )
 }

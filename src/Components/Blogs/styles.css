@@ -81,3 +81,8 @@
     position:absolute;
     left:15px;
   }
+
+  .list-wrapper>a{
+    text-decoration: none;
+    color: white;
+  }
