@@ -1,8 +1,50 @@
 .Gallery{
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F4454, #5a809e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#25855d, #5a809e ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px 0 50px 0;
+    color: white;
+    height: 100vh;
 }
 
 .gallery__title{
-    
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.gallery__div{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery_images{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gallery__viewAll{
+    /* width: 90%; */
+    max-height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery__viewAllDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
