@@ -17,7 +17,7 @@
 }
 
 .gallery__div{
-    width: 95%;
+    /* width: 95%; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -26,6 +26,13 @@
 
 .gallery_images{
     width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gallery_images_small{
     height: 150px;
     margin: 5px;
     border: 1px solid black;
@@ -47,4 +54,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.view_btn{
+    border: 1px solid red;
+    background: #E0EAFC;  /* fallback for old browsers */
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
 }

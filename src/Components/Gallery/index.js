@@ -44,54 +44,53 @@ function Gallery() {
                             Gallery<br></br><br></br>
                         </div>
                         <div className="gallery__div">
-                            <img src={image1} alt="image1" className="gallery_images"></img>
-                            <img src={image2} alt="image2" className="gallery_images"></img>
-                            <img src={image3} alt="image3" className="gallery_images"></img>
-                            <img src={image4} alt="image4" className="gallery_images"></img>
-                            <img src={image5} alt="image5" className="gallery_images"></img>
-                            <img src={image6} alt="image6" className="gallery_images"></img>
-                            <img src={image7} alt="image7" className="gallery_images"></img>
-                            <img src={image8} alt="image8" className="gallery_images"></img>
-
+                            <a target="_blank" href={image1} rel="noreferrer"><img src={image1} alt="image1" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image2} rel="noreferrer"><img src={image2} alt="image2" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image3} rel="noreferrer"><img src={image3} alt="image3" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image4} rel="noreferrer"><img src={image4} alt="image4" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image5} rel="noreferrer"><img src={image5} alt="image5" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image6} rel="noreferrer"><img src={image6} alt="image6" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image7} rel="noreferrer"><img src={image7} alt="image7" className="gallery_images_small"></img></a>
+                            <a target="_blank" href={image8} rel="noreferrer"><img src={image8} alt="image8" className="gallery_images_small"></img></a>
                         </div>
                         <br></br>
-                        <h4 style={{ color: '#E0EAFC' }} onClick={() => setviewAll(true)}><i>View More...</i></h4>
+                        <h5 className="view_btn" onClick={() => setviewAll(true)}><i>View More</i></h5>
                     </> :
                     <div className="gallery__viewAllDiv">
                         <div className="gallery__viewAll">
-                            <img src={image1} alt="image1" className="gallery_images"></img>
-                            <img src={image2} alt="image2" className="gallery_images"></img>
-                            <img src={image3} alt="image3" className="gallery_images"></img>
-                            <img src={image4} alt="image4" className="gallery_images"></img>
-                            <img src={image5} alt="image5" className="gallery_images"></img>
-                            <img src={image6} alt="image6" className="gallery_images"></img>
-                            <img src={image7} alt="image7" className="gallery_images"></img>
-                            <img src={image8} alt="image8" className="gallery_images"></img>
-                            <img src={image9} alt="image9" className="gallery_images"></img>
-                            <img src={image10} alt="image10" className="gallery_images"></img>
-                            <img src={image11} alt="image11" className="gallery_images"></img>
-                            <img src={image12} alt="image12" className="gallery_images"></img>
-                            <img src={image13} alt="image13" className="gallery_images"></img>
-                            <img src={image14} alt="image14" className="gallery_images"></img>
-                            <img src={image15} alt="image15" className="gallery_images"></img>
-                            <img src={image16} alt="image16" className="gallery_images"></img>
-                            <img src={image17} alt="image17" className="gallery_images"></img>
-                            <img src={image18} alt="image18" className="gallery_images"></img>
-                            <img src={image19} alt="image19" className="gallery_images"></img>
-                            <img src={image20} alt="image20" className="gallery_images"></img>
-                            <img src={image21} alt="image21" className="gallery_images"></img>
-                            <img src={image22} alt="image22" className="gallery_images"></img>
-                            <img src={image23} alt="image23" className="gallery_images"></img>
-                            <img src={image24} alt="image24" className="gallery_images"></img>
-                            <img src={image25} alt="image25" className="gallery_images"></img>
-                            <img src={image26} alt="image26" className="gallery_images"></img>
-                            <img src={image27} alt="image27" className="gallery_images"></img>
-                            <img src={image28} alt="image28" className="gallery_images"></img>
-                            <img src={image29} alt="image29" className="gallery_images"></img>
-                            <img src={image30} alt="image30" className="gallery_images"></img>
+                            <a target="_blank" href={image1} rel="noreferrer"><img src={image1} alt="image1" className="gallery_images"></img></a>
+                            <a target="_blank" href={image2} rel="noreferrer"><img src={image2} alt="image2" className="gallery_images"></img></a>
+                            <a target="_blank" href={image3} rel="noreferrer"><img src={image3} alt="image3" className="gallery_images"></img></a>
+                            <a target="_blank" href={image4} rel="noreferrer"><img src={image4} alt="image4" className="gallery_images"></img></a>
+                            <a target="_blank" href={image5} rel="noreferrer"><img src={image5} alt="image5" className="gallery_images"></img></a>
+                            <a target="_blank" href={image6} rel="noreferrer"><img src={image6} alt="image6" className="gallery_images"></img></a>
+                            <a target="_blank" href={image7} rel="noreferrer"><img src={image7} alt="image7" className="gallery_images"></img></a>
+                            <a target="_blank" href={image8} rel="noreferrer"><img src={image8} alt="image8" className="gallery_images"></img></a>
+                            <a target="_blank" href={image9} rel="noreferrer"><img src={image9} alt="image9" className="gallery_images"></img></a>
+                            <a target="_blank" href={image10} rel="noreferrer"><img src={image10} alt="image10" className="gallery_images"></img></a>
+                            <a target="_blank" href={image11} rel="noreferrer"><img src={image11} alt="image11" className="gallery_images"></img></a>
+                            <a target="_blank" href={image12} rel="noreferrer"><img src={image12} alt="image12" className="gallery_images"></img></a>
+                            <a target="_blank" href={image13} rel="noreferrer"><img src={image13} alt="image13" className="gallery_images"></img></a>
+                            <a target="_blank" href={image14} rel="noreferrer"><img src={image14} alt="image14" className="gallery_images"></img></a>
+                            <a target="_blank" href={image15} rel="noreferrer"><img src={image15} alt="image15" className="gallery_images"></img></a>
+                            <a target="_blank" href={image16} rel="noreferrer"><img src={image16} alt="image16" className="gallery_images"></img></a>
+                            <a target="_blank" href={image17} rel="noreferrer"><img src={image17} alt="image17" className="gallery_images"></img></a>
+                            <a target="_blank" href={image18} rel="noreferrer"><img src={image18} alt="image18" className="gallery_images"></img></a>
+                            <a target="_blank" href={image19} rel="noreferrer"><img src={image19} alt="image19" className="gallery_images"></img></a>
+                            <a target="_blank" href={image20} rel="noreferrer"><img src={image20} alt="image20" className="gallery_images"></img></a>
+                            <a target="_blank" href={image21} rel="noreferrer"><img src={image21} alt="image21" className="gallery_images"></img></a>
+                            <a target="_blank" href={image22} rel="noreferrer"><img src={image22} alt="image22" className="gallery_images"></img></a>
+                            <a target="_blank" href={image23} rel="noreferrer"><img src={image23} alt="image23" className="gallery_images"></img></a>
+                            <a target="_blank" href={image24} rel="noreferrer"><img src={image24} alt="image24" className="gallery_images"></img></a>
+                            <a target="_blank" href={image25} rel="noreferrer"><img src={image25} alt="image25" className="gallery_images"></img></a>
+                            <a target="_blank" href={image26} rel="noreferrer"><img src={image26} alt="image26" className="gallery_images"></img></a>
+                            <a target="_blank" href={image27} rel="noreferrer"><img src={image27} alt="image27" className="gallery_images"></img></a>
+                            <a target="_blank" href={image28} rel="noreferrer"><img src={image28} alt="image28" className="gallery_images"></img></a>
+                            <a target="_blank" href={image29} rel="noreferrer"><img src={image29} alt="image29" className="gallery_images"></img></a>
+                            <a target="_blank" href={image30} rel="noreferrer"><img src={image30} alt="image30" className="gallery_images"></img></a>
                         </div>
                         <br></br><br></br>
-                        <h4 style={{ color: '#E0EAFC' }} onClick={() => setviewAll(false)}><i>View Less...</i></h4>
+                        <h5 className="view_btn" onClick={() => setviewAll(false)}>View Less</h5>
                     </div>
             }
         </div>

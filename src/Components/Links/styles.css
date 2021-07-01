@@ -77,6 +77,11 @@
   width: 53px;
 }
 
+.links__logo_li{
+  height: 30px;
+  width: 38px;
+}
+
 .fb{
   color: #305DBB;
 }
