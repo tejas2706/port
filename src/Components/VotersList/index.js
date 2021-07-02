@@ -5,7 +5,7 @@ function VotersList() {
     return (
         <div id="votersList" className="votersList">
             <div className="inner">
-                <blink className="allTitle">
+                <blink>
                     <span className="voterList_box">V</span>
                     <span className="voterList_box">O</span>
                     <span className="voterList_box">T</span>
