@@ -13,6 +13,7 @@ import InfoLine from './Components/InfoLine';
 import CovidFight from './Components/CovidFight';
 import Contact from './Components/Contact';
 import Gallery from './Components/Gallery';
+import VotersList from './Components/VotersList';
 
 function App() {
   return (
@@ -20,18 +21,16 @@ function App() {
       <Header></Header>
       <div className="header__options">
           <a className='header__optionsBtn' href="#personalProfile" >Personal Profile</a>
-          {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#bussinessProfile" >Business Profile</a>
-          {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#youtube" >Youtube</a>
-          {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#blogs" >Blogs</a>
-          {/* <span style={{color: 'white'}}>|</span> */}
           <a className='header__optionsBtn' href="#gallery" >Gallery</a>
+          <a className='header__optionsBtn' href="#votersList" >Voters List</a>
       </div>
       <InfoLine></InfoLine>
       <Banners></Banners>
       <About></About>
+      <VotersList></VotersList>
       <Links></Links>
       <Youtube></Youtube>
       <Blogs></Blogs>

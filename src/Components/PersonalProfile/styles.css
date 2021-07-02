@@ -19,8 +19,9 @@
 
 .personalprofile__content{
     color: white;
-    margin: 0 40px 0 40px;
+    margin: 0 40px 0 45px;
     font-size: large;
+    line-break: auto;
 }
 
 .personalprofile__image{
