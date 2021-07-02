@@ -10,7 +10,6 @@ function Contact() {
             </div>
             <p>dayanandnene@gmail.com</p>
             <br></br>
-            <div>✼••┈┈┈┈••✼♡✼••┈┈┈┈••✼</div>
         </div>
     )
 }
