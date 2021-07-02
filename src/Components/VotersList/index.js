@@ -31,9 +31,9 @@ function VotersList() {
             <br></br>
             <span><b><a href="https://localbodyvoterlist.maharashtra.gov.in/ObjectionOnClick/SearchName" target="_blank" rel="noreferrer">https://localbodyvoterlist.maharashtra.gov.in/ObjectionOnClick/SearchName</a></b></span>
             <br></br>
-            <div className="decorativeLine">⊱ ───── .⋅ ✯ ⋅. ───── ⊰</div>
 
             </div>
+            <div className="decorativeLine">⊱ ───── .⋅ ✯ ⋅. ───── ⊰</div>
         </div>
     )
 }
