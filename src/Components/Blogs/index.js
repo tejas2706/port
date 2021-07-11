@@ -55,7 +55,7 @@ function Blogs() {
                 <div class="list-bullet">2</div>
                     <div class="list-item">
                         <div class="list-title">Small Investors Forum</div>
-                        <u><i>www.smallinvestorforum.blogspot.com</i></u>
+                        <u><i>www.smallinvestor.blogspot.com</i></u>
                         <div class="list-text">It is an initiative of the SATARK NAGRIK ® NGO started by Dayanand Nene. There is a need to continuously educate and inform investors about capital markets and investment frauds.Hence we have started this platform which provides education and information to investors...</div>
                         <br></br>
                         <div class="list-text"><b>Tags</b>:
