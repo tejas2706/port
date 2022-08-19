@@ -30,6 +30,13 @@ function Banners() {
                     <li data-target="#carousel_1" data-slide-to="5"></li>
                     <li data-target="#carousel_1" data-slide-to="6"></li>
                     <li data-target="#carousel_1" data-slide-to="7"></li>
+                    <li data-target="#carousel_1" data-slide-to="8"></li>
+                    <li data-target="#carousel_1" data-slide-to="9"></li>
+                    <li data-target="#carousel_1" data-slide-to="10"></li>
+                    <li data-target="#carousel_1" data-slide-to="11"></li>
+                    <li data-target="#carousel_1" data-slide-to="12"></li>
+                    <li data-target="#carousel_1" data-slide-to="13"></li>
+                    <li data-target="#carousel_1" data-slide-to="14"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
