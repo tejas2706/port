@@ -6,11 +6,18 @@ import img4 from './images/4.jpeg';
 import img5 from './images/5.jpeg';
 import img6 from './images/6.jpeg';
 import img7 from './images/7.jpeg';
-import img8 from './images/8.jpeg';
+import img9 from './images/9.jpeg';
+import img12 from './images/12.jpeg';
+import img13 from './images/13.jpeg';
+import img14 from './images/14.jpeg';
+import img15 from './images/15.jpeg';
+import img16 from './images/16.jpeg';
+import img17 from './images/17.jpeg';
+import img18 from './images/18.jpeg';
 import './styles.css'
 
 function Banners() {
-    const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+    const images = [img1, img2, img3, img4, img5, img6, img7, img9, img12, img13, img14, img15, img16, img17, img18];
     return (
         <div className="banner__container">
             <div id="carousel_1" className="carousel slide" data-ride="carousel">
